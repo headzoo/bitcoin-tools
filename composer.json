@@ -9,6 +9,11 @@
             "email": "sean@headzoo.io"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Headzoo": "src/"
+        }
+    },
     "require": {
         "php": ">=5.4"
     }
