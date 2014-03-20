@@ -2,7 +2,7 @@
     "name": "headzoo/php-bitcoin",
     "description": "Small library used to work with Bitcoin. Currently only contains a single class which validates Bitcoin addresses.",
     "license": "MIT",
-    "keywords": ["bitcoin"],
+    "keywords": ["bitcoin", "crypto"],
     "authors": [
         {
             "name": "headzoo",
