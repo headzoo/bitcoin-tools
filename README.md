@@ -1,4 +1,4 @@
-Bitcoin Tools v0.1.1
+Bitcoin Tools v0.1.2
 ====================
 Small library used to work with Bitcoin. Currently only contains a single class which validates Bitcoin addresses.
 
@@ -12,8 +12,10 @@ Quick Start
 -----------
 
 ```php
+<?php
+
 $testnet = false;
-$validator = new Headzoo\Bitcoin\Validator($testnet);
+$validator = new Headzoo\Bitcoin\Tools\Validator($testnet);
 if ($validator->isValid("1Headz2mYtpBRo6KFaaUEtcm5Kce6BZRJM")) {
     echo "This livenet address is valid.";
 } else {
@@ -21,7 +23,7 @@ if ($validator->isValid("1Headz2mYtpBRo6KFaaUEtcm5Kce6BZRJM")) {
 }
 
 $testnet = true;
-$validator = new Headzoo\Bitcoin\Validator($testnet);
+$validator = new Headzoo\Bitcoin\Tools\Validator($testnet);
 if ($validator->isValid("mibNyNV8UNGrW7ySMS4htmvAGkhC1vVmAe")) {
     echo "This testnet address is valid.";
 } else {
@@ -32,6 +34,9 @@ if ($validator->isValid("mibNyNV8UNGrW7ySMS4htmvAGkhC1vVmAe")) {
 
 Change Log
 ----------
+##### v0.1.2 - 2014/03/25
+* Renamed namespace `Headzoo\Bitcoin` to `Headzoo\Bitcoin\Tools`.
+
 ##### v0.1.1 - 2014/03/23
 * Renamed the project to bitcoin-tools.
 
