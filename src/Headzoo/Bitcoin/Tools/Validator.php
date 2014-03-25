@@ -1,5 +1,5 @@
 <?php
-namespace Headzoo\Bitcoin;
+namespace Headzoo\Bitcoin\Tools;
 
 /**
  * Validates Bitcoin addresses

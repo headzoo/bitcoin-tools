@@ -1,5 +1,5 @@
 <?php
-use Headzoo\Bitcoin\Validator;
+use Headzoo\Bitcoin\Tools\Validator;
 
 class ValidatorTest
     extends PHPUnit_Framework_TestCase
