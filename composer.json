@@ -1,5 +1,5 @@
 {
-    "name": "headzoo/php-bitcoin",
+    "name": "headzoo/bitcoin-tools",
     "description": "Small library used to work with Bitcoin. Currently only contains a single class which validates Bitcoin addresses.",
     "license": "MIT",
     "keywords": ["bitcoin", "crypto"],
