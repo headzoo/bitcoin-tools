@@ -1,5 +1,5 @@
-php-bitcoin
-===========
+Bitcoin Tools
+=============
 
 Small library used to work with Bitcoin. Currently only contains a single class which validates Bitcoin addresses.
 
