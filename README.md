@@ -1,10 +1,15 @@
-Bitcoin Tools
-=============
-
+Bitcoin Tools v0.1.1
+====================
 Small library used to work with Bitcoin. Currently only contains a single class which validates Bitcoin addresses.
 
-Usage
------
+
+Requirements
+------------
+* [PHP 5.5 or greater](https://php.net/downloads.php).
+
+
+Quick Start
+-----------
 
 ```php
 $testnet = false;
@@ -24,27 +29,21 @@ if ($validator->isValid("mibNyNV8UNGrW7ySMS4htmvAGkhC1vVmAe")) {
 }
 ```
 
+
+Change Log
+----------
+##### v0.1.1 - 2014/03/23
+* Renamed the project to bitcoin-tools.
+
+##### v0.1 - 2014/03/20
+* Genesis import!
+
+
 License
 -------
+This content is released under the MIT License. See the included LICENSE for more information.
 
-The MIT License (MIT)
+I write code because I like writing code, and writing code is a reward in itself, but donations are always welcome.
 
-Copyright (c) 2014 headzoo <headzoo@yahoo.com>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+Bitcoin: 1Headz2mYtpBRo6KFaaUEtcm5Kce6BZRJM  
+Litecoin: LheadzBgTNAitxYxUTUTTQ3RT7zR5jnkfq
